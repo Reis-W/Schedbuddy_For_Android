@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/historyCourses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="FACS Classes:"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/preTeaching"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="7161 PRINCIPLES OF TEACHING (9, 10, 11, 12) - Two semesters REQUIRED"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/teaching"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Topics Covered
+● Explore Educational Careers
+● Teaching Preparation
+● Prof. Expectations and Teacher Cert Reqs
+● Current Trends and Issues in Education
+● Special and Inclusive education
+*Dual Credit Availability*
+**20 Hours Service Learning-Required**
+** This course is especially appropriate if you have an
+interest in human services and education-related careers**
+Post-Secondary course alignment:
+Dual Credit – EDUC 101"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preChild"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="7157 CHILD and ADOLESCENT DEVELOPMENT (9, 10, 11, 12) - Two semesters REQUIRED"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/child"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Topics Covered: This course examines the physical,
+social, emotional, cognitive, and moral development of
+the child from birth to adolescence.
+● What can we learn by studying children?
+● FERPA and Confidentiality
+● Personal strengths and behaviors for adults working
+with children
+● Culturally-appropriate positive guidance
+techniques that support diversity
+● Societal issue impacts on students and families
+● Community and school resources
+*Dual Credit Availability*
+**20 Hours Service Learning-Required**
+** This course is especially appropriate if you have an interest in
+human services and education-related careers**
+Post-Secondary course alignment:
+Dual Credit – EDUC 121"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preWellness"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="5342 * NUTRITION AND WELLNESS (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/wellness"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="What is the difference between grilling and broiling? Why do I need
+more vegetables or fruits in my diet? What is powdered sugar? Discover the answers to these questions and more in this
+beginning Nutrition and Wellness class. Nutrition and Wellness is a course that enables students to realize the benefits of
+sound nutritional practices and apply them to their everyday lives. Qualifies as one of the FACS courses a student can
+take to waive the Health and Wellness graduation requirement. A student must take 3 of the qualifying FACS courses
+to waive the Health and Wellness requirement."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preInterpersonal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="5364 * INTERPERSONAL RELATIONS (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/interpersonal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Interpersonal Relationships address the knowledge, skills,
+attitudes, and behaviors all students need to participate in positive, caring, and respectful relationships in the family and
+with individuals at school, in the community, and in the workplace. Qualifies as one of the FACS courses a student can
+take to waive the Health and Wellness graduation requirement. A student must take 3 of the qualifying FACS courses to
+waive the Health and Wellness requirement."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preFashion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="5380 * INTRODUCTION TO FASHION AND TEXTILES (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/fashion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This one semester course explores the influences
+on fashion as well as consumer rights and responsibilities in relation to apparel. Basic construction skills are taught,
+including selection and use of a pattern and the care and use of a sewing machine and other tools used in construction, as
+students create a variety of textile products."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/rando14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This course is designed for Fishers HS male and female athletes involved in an IHSAA sponsored sport or one of the following
+        FHS Club Sports: lacrosse, rugby, volleyball. This course is for the motivated student-athlete who is serious about
+        improving his strength, explosive power, speed, and agility through a strenuous training program involving weight
+        training, plyometric, speed development, and agility drills. Students will be evaluated on participation, proper dress,
+        workout log upkeep, quizzes, and improvement over the course of the semester in strength (as measured by a 1-rep max
+        of the bench press, squat, and power clean) and explosive power and speed (as measured by 40-yard dash time, 20-yard
+        Pro-agility test, 20-yard acceleration test, and vertical jump). Requirement: Complete the two graduation-required
+        physical education credits through required PE courses and/or an alternate credit option. A maximum of 8 total credits
+        can be earned in elective physical education courses. It is recommended that FHS athletes complete the prerequisite
+        physical education credits by the end of their freshman year so they can enter APC as a sophomore."
+            android:textAllCaps="false"
+            android:visibility="invisible"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</ScrollView>

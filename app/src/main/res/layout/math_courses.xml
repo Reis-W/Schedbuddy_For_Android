@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/mathCourses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="Math Courses:"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/preaone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="2520 ALGEBRA I (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/aone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This course provides a formal development of algebraic skills and concepts. Topics
+include properties of real numbers, solution and evaluation of equations, including linear and quadratic, and inequalities,
+graphing of linear equations and systems of equations, use of exponents, and introductory topics from statistics and
+probability. This course is a foundational course for all other math courses offered at Fishers High School, and passing
+Algebra I is a graduation requirement."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="2532 GEOMETRY (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/g"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This course covers primarily plane geometry with some solid geometry topics. It
+includes deductive and inductive reasoning; the ideas of logic are stressed. Properties and relationships of geometric
+figures including the study of angles, lines, planes, congruent and similar triangles, parallel lines, circles and their arcs
+and angles, trigonometric ratios, polygons, including similar polygons, and spheres, and three-dimensional relationships
+are all included. Requirement: Successful completion of both semesters of Algebra I. This course may be taken at the
+same time as Algebra II."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/pregHonors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="2532 # GEOMETRY, HONORS (9, 10)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/gHonors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This course is offered to students recommended as most able in mathematics. The
+development of theorems will necessitate a working knowledge of measurement, congruence, similarity, parallelism,
+perpendicularity, transformations, probability, perimeter, area, volume, trigonometry, and application of algebraic
+concepts to geometry. This course differs from regular Geometry in that more topics are studied, concepts are
+investigated in greater depth, pacing is faster, and proofs and algebra are integrated throughout the entire course.
+Students considering this course should be active, inquisitive, and independent learners. Requirement: 'B' average in
+Algebra I. This course may be taken at the same time as Algebra II."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preatwoHonors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="2522 # ALGEBRA II, HONORS (9, 10, 11)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/atwoHonors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This course is offered to students recommended as most able in mathematics.
+    The content of the course includes all topics in Algebra II, presented from a more abstract and theoretical standpoint.
+    Additional topics may include, linear programming, conic sections, and statistics. Requirement: Successful completion
+    of Honors Algebra 1 at the junior high level. Recommendation: A minimum grade of A- in both semesters of Honors
+    Algebra 1. This course may be taken at the same time as Geometry."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preaEnrich"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="2516 ALGEBRA ENRICHMENT (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/aEnrich"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Algebra Enrichment is a mathematics support course for Algebra I. The
+course provides students with additional time to build the foundations necessary for high school math courses, while
+concurrently having access to rigorous, grade-level appropriate courses. The five critical areas of algebra enrichment align
+with the critical areas of Algebra I: Relationships between quantities and reasoning with equations; linear and
+exponential relationships; descriptive statistics; expressions and equations; and quadratic functions and modeling.
+Algebra Enrichment is a lab course which allows for additional time and resources for students to continue to build on
+course work from Algebra I. This course counts as a math course for the General Diploma only and as an elective for
+the Core 40, Core 40 with Honors, or Core 40 with Technical Honors Diplomas."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="2524 ANALYTICAL ALGEBRA II (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/ana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This course should focus on the application of mathematics in various
+disciplines including business, finance, science, career and technical education and social sciences. This course covers
+most of the traditional Algebra II standards, but the focus is on the application of algebraic concepts rather than
+theoretical concepts. Building on previous work with linear, quadratic, and exponential functions, Analytical Algebra II
+should extend to include polynomial, rational, radical, logarithmic, and other functions. Students should be able to model
+real-world problems with various functions using and translating between multiple representations. Additionally,
+students should be able to interpret key features of function models within a given context. Requirement: Successful
+completion of Algebra I. This course fulfills the Algebra II requirement for all diplomas; if students use this course to
+fulfill this credit, the parent must sign a consent form notifying the parent and the student that enrollment in
+Analytical Algebra II may affect the student’s ability to attend a particular post-secondary educational institution
+because Analytical Algebra II may not align with the academic requirements established by the post-secondary
+educational institution."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/rando6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This course is designed for Fishers HS male and female athletes involved in an IHSAA sponsored sport or one of the following
+        FHS Club Sports: lacrosse, rugby, volleyball. This course is for the motivated student-athlete who is serious about
+        improving his strength, explosive power, speed, and agility through a strenuous training program involving weight
+        training, plyometric, speed development, and agility drills. Students will be evaluated on participation, proper dress,
+        workout log upkeep, quizzes, and improvement over the course of the semester in strength (as measured by a 1-rep max
+        of the bench press, squat, and power clean) and explosive power and speed (as measured by 40-yard dash time, 20-yard
+        Pro-agility test, 20-yard acceleration test, and vertical jump). Requirement: Complete the two graduation-required
+        physical education credits through required PE courses and/or an alternate credit option. A maximum of 8 total credits
+        can be earned in elective physical education courses. It is recommended that FHS athletes complete the prerequisite
+        physical education credits by the end of their freshman year so they can enter APC as a sophomore."
+            android:textAllCaps="false"
+            android:visibility="invisible"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</ScrollView>

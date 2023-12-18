@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/theatreCourses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="Theatre Courses:"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/preTheatreOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="4244 * TECHNICAL THEATRE (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/theatreOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Technical Theatre instruction combines the theories of design and stage craft
+w/ the construction and operation of the various elements of tech theatre. Students are provided with opportunities to: (1)
+develop stagecraft skills; (2) learn various techniques in scenery, lighting, sound, properties, costumes, and makeup; (3)
+practice theatre safety; and (4) learn effective stage management, business plans, and promotional techniques. Students
+continue to analyze and evaluate scripts and live theatre performances so that they learn to determine appropriate technical
+requirements for a variety of theatrical works."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preTheatreTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="4244 * TECHNICAL THEATRE II (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/theatreTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This course is broken into three units; advanced construction, sound
+systems and lighting design. Students will gain the basic knowledge of live sound reinforcement, to include the
+microphone, amplifiers, speakers, signal path and the sound mixer. The students will have hands-on experience with the
+auditorium’s sound equipment. The unit on lighting teaches the students about theatre lighting instruments. This
+includes how to hang and focus the fixture, color and lighting composition, basic electricity, and light board operation.
+Requirement: Technical Theatre."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preTheatreThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="4242 * THEATRE I (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/theatreThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This one-semester course offers students an introduction to the many facets of theatre
+including theatre history (Greek to Elizabethan), and introduction to acting techniques. Students are introduced to
+activities to improve command of body and voice while building confidence in these abilities. Students develop skills
+enabling them to speak and write clearly and expressively. They also refine their abilities to collaborate on performances,
+as they learn to constructively evaluate their own and others’ efforts."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preTheatreFour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="4242 * THEATRE II (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/theatreFour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This one-semester course builds upon the skills developed in Theatre I. Students will
+study theatre history (Spanish Golden Age to Modern Theatre), two-person scene work, along with advanced partner
+acting techniques using the works of Meisner. Students develop skills that enable them to create a deeper understanding
+of scene work and how to become a good scene partner. They also refine their abilities to collaborate on performances, as
+they learn to constructively evaluate their own and others’ efforts. Prerequisite: Completion of Theatre 1 (w/
+recommendation of “B” average)."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/rando5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This course is designed for Fishers HS male and female athletes involved in an IHSAA sponsored sport or one of the following
+        FHS Club Sports: lacrosse, rugby, volleyball. This course is for the motivated student-athlete who is serious about
+        improving his strength, explosive power, speed, and agility through a strenuous training program involving weight
+        training, plyometric, speed development, and agility drills. Students will be evaluated on participation, proper dress,
+        workout log upkeep, quizzes, and improvement over the course of the semester in strength (as measured by a 1-rep max
+        of the bench press, squat, and power clean) and explosive power and speed (as measured by 40-yard dash time, 20-yard
+        Pro-agility test, 20-yard acceleration test, and vertical jump). Requirement: Complete the two graduation-required
+        physical education credits through required PE courses and/or an alternate credit option. A maximum of 8 total credits
+        can be earned in elective physical education courses. It is recommended that FHS athletes complete the prerequisite
+        physical education credits by the end of their freshman year so they can enter APC as a sophomore."
+            android:textAllCaps="false"
+            android:visibility="invisible"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</ScrollView>

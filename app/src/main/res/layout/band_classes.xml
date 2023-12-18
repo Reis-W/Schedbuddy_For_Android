@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/bandCourses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="Band Courses:"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/preBandOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="4160 CONCERT BAND – Concert Band (9)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/bandOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This entry-level freshman band is open to all wind instrumentalists and
+percussionists who have at least 1-3 years experience on their instrument. Participation is by audition or recommendation
+from the student’s previous band director. Students rehearse and perform a wide variety of music during the year,
+including several concerts. Students are required to participate in performances such as concerts and contests, outside of
+the school day. Away/overnight trips are possible. All trip costs may be defrayed through fundraising opportunities.
+Requirement: Audition."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preBandTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="4168 SYMPHONIC BAND RED (9)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/bandTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This intermediate freshman-level band is open to all wind instrumentalists and
+percussionists who have at least 1-3 years experience on their instrument. Participation is by audition or recommendation
+from the student’s previous band director. Students rehearse and perform a wide variety of music during the year,
+including several concerts. Students are required to participate in performances such as concerts and contests, outside of
+the school day. Away/overnight trips are possible. All trip costs may be defrayed through fundraising opportunities.
+Requirement: Audition."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preBandThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="4170 – WIND SYMPHONY (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/bandThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This advanced concert band is open to all instrumentalists. Participation is by
+audition only. Students perform a wide variety of music during the year, performing several concerts. Band repertoire
+will be of the highest caliber. In order to be considered for this ensemble, students should demonstrate refinement in the
+areas of (1) intonation, (2) balance and blend, (3) breathing, (4) tone production, (5) tone quality, (6) technique, (7) rhythm,
+(8) sight-reading, and (9) critical listening skills. Mastery of advanced technique must be evident. Evaluation of music and
+music performances is included. Students also have the opportunity to experience live performances by professionals
+during and outside of the school day. Away/overnight trips are possible. All costs are defrayed through fundraising
+opportunities. Requirement: Audition."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preBandFour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="4162 INSTRUMENTAL ENSEMBLE / PERCUSSION ENSEMBLE (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/bandFour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This class is designed to encourage
+cultural, historical, theoretical and performance of the percussive arts. Students will work in chamber groups, large
+ensembles, multi-cultural ensembles and be able to transfer learned skills in the community of Fishers High School and a
+competitive format. This course would be an auditioned course and would also be required to be enrolled in a concert
+band class. Students would rehearse for performances during class as well before performances. This class would
+perform in ensemble competition (4) weekends of the year in the Spring semester (Feb-March). In addition, this ensemble
+would perform a concert in both the Fall and Spring semesters. Requirement: Placement in this class is limited and by
+audition and recommendation of the director. Concurrent enrollment in a concert band class."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/rando4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This course is designed for Fishers HS male and female athletes involved in an IHSAA sponsored sport or one of the following
+        FHS Club Sports: lacrosse, rugby, volleyball. This course is for the motivated student-athlete who is serious about
+        improving his strength, explosive power, speed, and agility through a strenuous training program involving weight
+        training, plyometric, speed development, and agility drills. Students will be evaluated on participation, proper dress,
+        workout log upkeep, quizzes, and improvement over the course of the semester in strength (as measured by a 1-rep max
+        of the bench press, squat, and power clean) and explosive power and speed (as measured by 40-yard dash time, 20-yard
+        Pro-agility test, 20-yard acceleration test, and vertical jump). Requirement: Complete the two graduation-required
+        physical education credits through required PE courses and/or an alternate credit option. A maximum of 8 total credits
+        can be earned in elective physical education courses. It is recommended that FHS athletes complete the prerequisite
+        physical education credits by the end of their freshman year so they can enter APC as a sophomore."
+            android:textAllCaps="false"
+            android:visibility="invisible"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</ScrollView>

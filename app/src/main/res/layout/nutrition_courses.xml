@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/nutritionCourses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="Nutrition/Conditioning Classes:"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/preNutritionOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="3560 ** ELECTIVE PHYSICAL EDUCATION: ADVANCED PHYSICAL CONDITIONING; APC (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/nutritionOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This course is designed for Fishers HS male and female athletes involved in an IHSAA sponsored sport or one of the following
+        FHS Club Sports: lacrosse, rugby, volleyball. This course is for the motivated student-athlete who is serious about
+        improving his strength, explosive power, speed, and agility through a strenuous training program involving weight
+        training, plyometric, speed development, and agility drills. Students will be evaluated on participation, proper dress,
+        workout log upkeep, quizzes, and improvement over the course of the semester in strength (as measured by a 1-rep max
+        of the bench press, squat, and power clean) and explosive power and speed (as measured by 40-yard dash time, 20-yard
+        Pro-agility test, 20-yard acceleration test, and vertical jump). Requirement: Complete the two graduation-required
+        physical education credits through required PE courses and/or an alternate credit option. A maximum of 8 total credits
+        can be earned in elective physical education courses. It is recommended that FHS athletes complete the prerequisite
+        physical education credits by the end of their freshman year so they can enter APC as a sophomore."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preNutritionTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="5342 * NUTRITION AND WELLNESS (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/nutritionTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="What is the difference between grilling and broiling? Why do I need
+more vegetables or fruits in my diet? What is powdered sugar? Discover the answers to these questions and more in this
+beginning Nutrition and Wellness class. Nutrition and Wellness is a course that enables students to realize the benefits of
+sound nutritional practices and apply them to their everyday lives. Qualifies as one of the FACS courses a student can
+take to waive the Health and Wellness graduation requirement. A student must take 3 of the qualifying FACS courses
+to waive the Health and Wellness requirement."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preNutritionThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="3506* HEALTH AND WELLNESS EDUCATION (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/nutritionThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Health Education provides the basis for continued
+methods of developing knowledge, concepts, skills, behaviors, and attitudes related to student health and well-being. A
+variety of instructional strategies are used to further develop health literacy while using the skills-based approach.
+Students are provided with opportunities to explore the effect of health behaviors on an individual's quality of life. This
+course assists students in understanding that health is a lifetime commitment by analyzing individual risk factors and
+health decisions that promote health and prevent diseases."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/rando1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This course is designed for Fishers HS male and female athletes involved in an IHSAA sponsored sport or one of the following
+        FHS Club Sports: lacrosse, rugby, volleyball. This course is for the motivated student-athlete who is serious about
+        improving his strength, explosive power, speed, and agility through a strenuous training program involving weight
+        training, plyometric, speed development, and agility drills. Students will be evaluated on participation, proper dress,
+        workout log upkeep, quizzes, and improvement over the course of the semester in strength (as measured by a 1-rep max
+        of the bench press, squat, and power clean) and explosive power and speed (as measured by 40-yard dash time, 20-yard
+        Pro-agility test, 20-yard acceleration test, and vertical jump). Requirement: Complete the two graduation-required
+        physical education credits through required PE courses and/or an alternate credit option. A maximum of 8 total credits
+        can be earned in elective physical education courses. It is recommended that FHS athletes complete the prerequisite
+        physical education credits by the end of their freshman year so they can enter APC as a sophomore."
+            android:textAllCaps="false"
+            android:visibility="invisible"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</ScrollView>

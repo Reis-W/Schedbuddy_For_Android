@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/historyCourses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="Computer Science Classes:"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/preIntroCs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="4803 * INTRODUCTION TO COMPUTER SCIENCE (9, 10)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/introCs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="A one-semester course designed to give a first experience
+with several computer science topics. Students work together on activities to develop problem-solving skills and learn
+how a computer “thinks” using algorithms. Students create content for web pages using basic html and add design to
+their web pages using style sheets. Students learn basic concepts of computer programming to code visual scenes that
+include animation and user interaction leading to a final project where students program their own game. No
+programming or computer science experience is needed. This course meets the Business graduation requirement."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preApCs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="4568 ## AP COMPUTER SCIENCE PRINCIPLES (9 with recommendation, 10, 11 ,12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/apCs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This is a full year course designed
+to introduce students to a broad range of computer science topics. Students explore the impact of computer science on
+society by studying the internet, image encoding, compression, JavaScript programming, data analytics, Big Data and
+cybersecurity. Students have a chance to express their creativity while demonstrating their understanding of computer
+science concepts. Students who have a computer science background should take this course if they want to broaden their
+CS experience. Students who do not have a computer science background should take this course to get an understanding
+of CS topics that can be helpful in many careers such as business, engineering, science and the arts. Students will submit
+one project to College Board and prepare to take the “AP Computer Science Principles” test in May. No computer science
+experience is needed. Students must have strong Algebra skills and strong written communication skills. This course
+meets the Business graduation requirement and counts as a science elective. AP Exam registration will take place in
+September and October. Standard AP fees apply."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preWeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="7185 WEBSITE and DATABASE DEVELOPMENT (9 with recommendation, 10, 11 ,12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="A full-year course in computer
+programming and related computer science topics. Students will learn and practice fundamental programming concepts
+including variables, looping, control structures, data structures, and functions. In the first semester, students will begin
+JavaScript and web design, utilizing HTML and CSS to build programming skills and apply them in a web environment. In
+the second semester, students will learn Python and programming concepts that are applicable to any programming
+language. Students will also be introduced to the basic concepts of databases including types of databases, database
+design, tables, queries, reports, and applications. Students will also be introduced to BIG Data and data mining. Students
+will also develop business application using database software such as Microsoft Access. Requirement: AP Computer
+Science Principles (or teacher recommendation). This course meets the Business graduation requirement"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/rando13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This course is designed for Fishers HS male and female athletes involved in an IHSAA sponsored sport or one of the following
+        FHS Club Sports: lacrosse, rugby, volleyball. This course is for the motivated student-athlete who is serious about
+        improving his strength, explosive power, speed, and agility through a strenuous training program involving weight
+        training, plyometric, speed development, and agility drills. Students will be evaluated on participation, proper dress,
+        workout log upkeep, quizzes, and improvement over the course of the semester in strength (as measured by a 1-rep max
+        of the bench press, squat, and power clean) and explosive power and speed (as measured by 40-yard dash time, 20-yard
+        Pro-agility test, 20-yard acceleration test, and vertical jump). Requirement: Complete the two graduation-required
+        physical education credits through required PE courses and/or an alternate credit option. A maximum of 8 total credits
+        can be earned in elective physical education courses. It is recommended that FHS athletes complete the prerequisite
+        physical education credits by the end of their freshman year so they can enter APC as a sophomore."
+            android:textAllCaps="false"
+            android:visibility="invisible"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</ScrollView>

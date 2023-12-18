@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/artCourses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="Visual Arts Courses:"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/preDrawingOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="4060 * DRAWING I (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/drawingOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Students will focus primarily on art production. Emphasis is placed upon developing
+students’ observational drawing skills and strengthening perceptual awareness in order to draw more realistically
+● Students will experience a variety of drawing materials using dry media.
+● Students will be introduced to the elements of art and principles of design.
+● This course is encouraged for students interested in taking AP Studio Art, pursuing an art career, or just would
+like to gain foundational skills in drawing.
+● No prerequisites required for this class
+● Not recommended to take simultaneously with Introduction to Two-Dimensional art"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preTwoD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="4002 * INTRODUCTION TO TWO-DIMENSIONAL ART (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/twoD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This course is designed to give students a basic
+understanding of two-dimensional media and various art skills needed for other art classes.
+● Introduced the elements, principles, and design concepts that serve as a foundation for all works of art.
+● Encompasses art production, art criticism, aesthetics, and art history.
+● Students will explore a variety of media such as graphite, colored pencil, marker, printmaking, and painting.
+● No previous art courses are necessary.
+● Students interested in graphic design (Visual Communications I and II) should have this as their required
+prerequisite.
+● Not recommended to take simultaneously with Drawing I"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preThreeD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="4006 * INTRODUCTION TO THREE-DIMENSIONAL ART (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/threeD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Students taking 3-D Art engage in learning
+experiences that encompass art history, art criticism, aesthetics, and production of work.
+● Through exploration of materials and techniques students will strengthen their ability to develop and organize
+their visual communication skills through creation of three-dimensional art work.
+● Students will be introduced to the elements of art, principles of design, and design concepts that serve as a
+foundation for all works created in art and design.
+● This class is a prerequisite for ceramics, sculpture and jewelry/metals courses and is especially recommended for
+all students intending to major or minor in art and/or design."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/prePeerArt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="0520 * PEER ART EDUCATION (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/peerArt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Peer Art Education is designed to provide exceptional learners an opportunity to communicate
+through visual art. This course will provide instruction through several different methods of art-making designed to lead
+our exceptional learners toward positive self-expression.
+● Processes explored include (but are not limited to) drawing, painting, printing, and sculpting. Exceptional
+learners are paired with peers who will facilitate a series of lessons in coordination with the lead teacher. These
+peers will be instructed and guided on artistic technique, proper facilitation, best-practice classroom methods,
+and reflection.
+● This course will address fine and gross motor skills as well as behavioral goals. Finally, participating as a group,
+they will work at presenting their finished pieces in an exhibition style showcase.
+● RECOMMENDED : at least one semester of Art"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/prePrintmaking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="4066 * PRINTMAKING (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/printmaking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Students will learn printmaking techniques and processes while exploring the
+disciplines of art history, art production, art criticism and aesthetics.
+● They will create abstract and realistic prints using some of the following techniques: woodcut, monotype,
+drypoint, embossing, linocut, etching, lithography and silkscreen.
+● Students will reflect upon and refine their work while looking for ways to relate to other disciplines and the
+community around them.
+● Requirement: Introduction to Two-Dimensional Art"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/prePhotos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="4062 * BEGINNING DIGITAL PHOTOGRAPHY (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/photos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Formerly called “Point and Shoot Photography, this
+intro-level course to learn design foundations and make art. For any student, regardless of art background.
+● Learn camera controls for your digital device.
+● Explore photo editing techniques with emphasis on Adobe Photoshop
+● Understand what art is, and its place in history.
+● Discover your inner artists.
+● Fulfills the general fine arts elective requirement, no prerequisites required
+● Students must supply a digital camera of any kind or a cell phone.
+● https://fishershighschoolphotography.weebly.com/"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preCeramics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="4040 * CERAMICS I (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/ceramics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This studio oriented class enables students the opportunity to creatively explore the
+        possibilities of clay work using various methods of hand built construction with an introduction to the use of the potter’s
+        wheel.
+        ● Emphasis is placed on development of skills, use of appropriate ceramic vocabulary, fabrication techniques and
+        equipment associated with the ceramics craft.
+        ● Students will also engage in learning experiences that encompass art history, art criticism, and aesthetics.
+        ● All assignments must demonstrate both artistic merit and good craftsmanship.
+        ● Requirement: Introduction to Three-Dimensional Art."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/rando3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This course is designed for Fishers HS male and female athletes involved in an IHSAA sponsored sport or one of the following
+        FHS Club Sports: lacrosse, rugby, volleyball. This course is for the motivated student-athlete who is serious about
+        improving his strength, explosive power, speed, and agility through a strenuous training program involving weight
+        training, plyometric, speed development, and agility drills. Students will be evaluated on participation, proper dress,
+        workout log upkeep, quizzes, and improvement over the course of the semester in strength (as measured by a 1-rep max
+        of the bench press, squat, and power clean) and explosive power and speed (as measured by 40-yard dash time, 20-yard
+        Pro-agility test, 20-yard acceleration test, and vertical jump). Requirement: Complete the two graduation-required
+        physical education credits through required PE courses and/or an alternate credit option. A maximum of 8 total credits
+        can be earned in elective physical education courses. It is recommended that FHS athletes complete the prerequisite
+        physical education credits by the end of their freshman year so they can enter APC as a sophomore."
+            android:textAllCaps="false"
+            android:visibility="invisible"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</ScrollView>

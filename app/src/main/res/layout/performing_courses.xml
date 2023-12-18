@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/pFCourses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="Performing Arts Courses:"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/preDance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="4146 ** DANCE PERFORMANCE - GUARD (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/dance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This course is open to all students and is designed to provide
+students with an outlet for musical expression and performance through flag, rifle, saber, and dance. This course is
+co-curricular and members will be expected to participate in Fall Marching Band and other possible opportunities
+outside of the school day that support and extend classroom learning. Activities utilize a wide variety of materials and
+experiences and are designed to develop techniques appropriate for both individual and group activities. If taken in the
+second semester, this course is designed to develop techniques appropriate with Color guard skills and choreography.
+Students will need proper dance attire and shoes, but no student will be turned away due to financial reasons."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preMedia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="1086 HS STUDENT MEDIA / INTRODUCTION (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/media"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This yearlong class will offer students the opportunity to
+experience all aspects of crafting a television program from an introductory level. Students will learn all aspects of
+television production, from history to writing telecasts, understanding and utilizing the latest technology for production
+and post-production, and learning and demonstrating on-camera performance skills. This class offers a unique
+opportunity to explore all phases of the modern, successful telecommunication arena through hands-on participation. The
+final products may include student-generated announcements for the building, special projects and possibly expansion to
+a variety of community programs. Requirement: Application. This course does not count as an English credit."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</ScrollView>

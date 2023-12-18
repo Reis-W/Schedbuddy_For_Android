@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/jobs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="Job Descriptions:"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/preSocialServing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Social Services"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/socialServing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Social services are a range of public services intended to provide support and assistance
+            towards particular groups, which commonly include the disadvantaged. They may be provided by individuals,
+            private and independent organisations, or administered by a government agency. Social services are connected
+            with the concept of welfare and the welfare state, as countries with large welfare programs often provide a
+            wide range of social services. Social services are employed to address the wide range of needs of a society.
+             Prior to industrialisation, the provision of social services was largely confined to private organisations
+            and charities, with the extent of its coverage also limited. Social services are now generally regarded
+            globally as a 'necessary function' of society and a mechanism through which governments may address societal issues."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preEducate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Education"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/educate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Do you have a passion for teaching? Education is an industry that, like health care,
+            will always be essential. Employment for education, training, and library occupations is projected to
+            grow 5% from 2018–2028, adding about 512,900 new jobs. Enrollment is projected to increase at both
+            the college and university level and among public elementary and secondary schools—which means that
+            in addition to postsecondary teachers, preschool, elementary, and secondary school teachers will be in demand."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preITComp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Information Technology"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/iTComp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="“Computer nerds” are definitely having the last laugh. The information technology (IT)
+            field is huge already—and it’s only continuing to grow. Employment for computer and information
+            technology professions is projected to grow 12% from 2018–2028—much faster than the average for
+            all other job roles—which will add about 546,200 new jobs. With a greater emphasis on cloud computing,
+            big data, and information security, it’s no wonder the demand for IT jobs is increasing."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preBusinessFinance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Business"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/businessFinance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Business majors develop many valuable skills and areas of knowledge that enable them
+            to make a significant contribution to the corporate and nonprofit worlds. Business majors can quantify a
+            set of data, evaluate the financial impact of decisions, and use figures to back up their proposals—basically,
+            they think in numbers. Employment for business and financial operations occupations is projected to grow
+            7% from 2018–2028, which will add about 591,800 new jobs. "
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preArch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Engineering"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/arch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Architects design buildings and structures such as hospitals, houses, and more.
+            Engineers use science and mathematics to design, build, and maintain structures and systems.
+            About 113,300 new jobs are projected to be added to architectural and engineering fields by 2028."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preMarkets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Marketing"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/markets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="These professionals calculate the demand for products and services, generate interest
+            among potential buyers, and much more. Employment for advertising, promotions, and marketing managers
+            is projected to grow 8% from 2018–2028, faster than the average for other professions."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preHealthCare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Health Care"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/healthCare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Jobs in health care never go out of style. Employment for health care occupations is projected to
+            grow 14% from 2018–2028, adding about 1.9 million new jobs. If that sounds like a lot, that’s because it is—in
+            fact, health care professions are projected to add more jobs than any other occupational group in that time frame. "
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preMathCare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Math"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/mathCare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Math is hard for us...but if it’s your favorite subject, consider pursuing a career in
+            mathematics! Overall employment for mathematicians and statisticians is projected to grow 30% from 2018–2028,
+            much faster than all other professions. Statistical analysis is used to make informed business decisions
+            across industries. Plus, as more people and companies conduct business online, organizations need educated
+            mathematics professionals to analyze large amounts of data."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preScienceCare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Science"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/scienceCare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Do you love research, exploration, and innovation? Consider a career in the sciences!
+            Employment for life, physical, and social science professions is projected to grow 7%
+            from 2018–2028—resulting in about 97,400 new jobs. "
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/notVisible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Do you love research, exploration, and innovation? Consider a career in the sciences!
+            Employment for life, physical, and social science professions is projected to grow 7%
+            from 2018–2028—resulting in about 97,400 new jobs.
+
+
+
+
+
+
+
+
+
+                                                                                                        h"
+            android:textAllCaps="false"
+            android:visibility="invisible"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</ScrollView>

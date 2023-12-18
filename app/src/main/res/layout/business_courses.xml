@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/historyCourses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="Business Classes:"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/preBusinessMngmt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="4562 PRINCIPLES OF BUSINESS MANAGEMENT (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/businessMngmt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Principles of Business introduces students to the world
+of business, including the concepts, functions, and skills required for meeting the challenges of operating a business in the
+twenty-first century on a local, national, and international scale. The course covers business management,
+entrepreneurship, marketing fundamentals, and business ethics and law. The course develops business vocabulary and
+provides an overview of business and the role that business plays in economic, social, and political environments. The
+application and importance of etiquette will be introduced. Participation in DECA (an association of marketing students)
+is strongly recommended. This course meets the Business graduation requirement."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preChild"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="4528 * DIGITAL APPLICATIONS AND RESPONSIBILITY (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/child"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="The student will be introduced to the physical
+components and operation of computers. Technology is used to build students' decision-making and problem-solving
+skills focusing on Word Processing/MS Word, spreadsheets/MS Excel, databases/MS Access and presentation
+software/MS PowerPoint. This is a dual credit course through Ivy Tech. Students must meet all Ivy Tech prerequisites
+to qualify for Ivy Tech dual credit. This course meets Business graduation requirements."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</ScrollView>

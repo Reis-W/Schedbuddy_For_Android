@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/historyCourses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="Choir Courses:"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/preChoirOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="4182 BEGINNING CHORUS / SOTTO VOCÉ (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/choirOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This class is open to any female student that is interested in
+singing for enjoyment. Students taking Beginning Chorus develop musicianship and specific performance skills through
+ensemble and solo singing. Beginning Chorus provides instruction in creating, performing, conducting, listening to, and
+analyzing, in addition to focusing on the specific subject matter. Students develop the ability to understand and convey
+the composer’s intent in order to connect the performer with the audience. Students have the opportunity to experience
+live performances by professionals during and outside of the school day. A limited number of public performances may
+serve as a culmination of daily rehearsal and music goals. Students must participate in performance opportunities,
+outside of the school day, that support and extend learning in the classroom. This choir experience stresses the study of
+vocal technique, sight reading, and the fundamentals of music while performing on a limited basis. A varied repertoire of
+concert, sacred, pop, jazz, contemporary, and musical theatre vocal literature will be studied and presented. Each
+member must pay a costume rental fee, but no student is denied membership because of financial reasons."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preChoirTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="4182 BEGINNING CHORUS / STATESMEN (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/choirTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This class is open to any male student that is interested in
+singing for enjoyment. Students taking Beginning Chorus develop musicianship and specific performance skills through
+ensemble and solo singing. Beginning Chorus provides instruction in creating, performing, conducting, listening to, and
+analyzing, in addition to focusing on the specific subject matter. Students develop the ability to understand and convey
+the composer’s intent in order to connect the performer with the audience. Students have the opportunity to experience
+live performances by professionals during and outside of the school day. A limited number of public performances may
+serve as a culmination of daily rehearsal and music goals. Students must participate in performance opportunities,
+outside of the school day, that support and extend learning in the classroom. This choir experience stresses the study of
+vocal technique, sight reading, and the fundamentals of music while performing on a limited basis. A varied repertoire of
+concert, sacred, pop, jazz, contemporary, and musical theatre vocal literature will be studied and presented. Each
+member must pay a costume rental fee, but no student is denied membership because of financial reasons."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preChoirThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="4186 INTERMEDIATE CHORUS / CANTUS (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/choirThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This class is open to any female student by audition only.
+This select ensemble performs choral literature of varying styles, historical periods and cultures, to the highest degree of
+proficiency possible. This course provides instructions in creating, performing, conducting, listening to, and analyzing, in
+addition to focusing on the specific subject matter. Students develop the ability to understand and convey the composer’s
+intent in order to connect the performer with the audience. Additional emphasis is placed on sight-reading, critical
+listening skills, and vocal techniques. Any performance opportunities outside the classroom, either as a solo or as a group
+participant, will be at the discretion of the directors. A varied repertoire of concert, sacred, pop, jazz, contemporary, and
+musical theatre vocal literature will be studied and presented. Requirement: Audition. Each member must pay a
+contribution fee, but no student is denied membership because of financial reasons."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preChoirFour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="4186 INTERMEDIATE CHORUS / CANTABILE (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/choirFour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This class is open to any student by audition only. This
+select ensemble performs choral literature of varying styles, historical periods and cultures, to the highest degree of
+proficiency possible. This course provides instructions in creating, performing, conducting, listening to, and analyzing, in
+addition to focusing on the specific subject matter. Students develop the ability to understand and convey the composer’s
+intent in order to connect the performer with the audience. Additional emphasis is placed on sight-reading, critical
+listening skills, and vocal techniques. Any performance opportunities outside the classroom, either as a solo or as a group
+participant, will be at the discretion of the directors. A varied repertoire of concert, sacred, pop, jazz, contemporary, and
+musical theatre vocal literature will be studied and presented. Requirement: Audition. Each member must pay a
+contribution fee, but no student is denied membership because of financial reasons."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preChoirFive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="4188 ADVANCED CHORUS / SOUND (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/choirFive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This class is open to any female student by audition only. This select ensemble
+performs choral literature of varying styles, historical periods and cultures, to the highest degree of proficiency possible, specializing in
+the stylistic performance of American popular music and that of the musical, complimented by choreography as well as concert choir
+repertoire spanning all musical periods from the Renaissance to Contemporary. Students develop musicianship and specific
+performance skills through ensemble and solo singing. Instruction is designed so that students are able to connect, examine, imagine,
+define, try, extend, refine, and integrate music study into other subject areas. This course provides instruction in creating, performing,
+conducting, listening to, and analyzing, in addition to focusing on the specific subject matter. Students have the opportunity to work
+with professional clinicians during and outside of the school day. Mastery of basic choral technique must be evident. Areas of
+refinement include madrigal singing, a cappella singing, show choir, vocal jazz, vocal performance, sight-reading, and critical thinking
+skills. As a major performance ensemble, members are expected to attend practices once a week and all extra rehearsals and
+performances for which academic credit is given. Requirement: Extensive Audition. Each member must pay a contribution fee, but
+no student is denied membership because of financial reasons."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preChoirSix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="4188 ADVANCED CHORUS / ELECTRUM (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/choirSix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This class is open to any student by audition only. This select ensemble
+performs choral literature of varying styles, historical periods and cultures, to the highest degree of proficiency possible, specializing in
+the stylistic performance of American popular music and that of the musical, complimented by choreography as well as concert choir
+repertoire spanning all musical periods from the Renaissance to Contemporary. Students develop musicianship and specific
+performance skills through ensemble and solo singing. Instruction is designed so that students are able to connect, examine, imagine,
+define, try, extend, refine, and integrate music study into other subject areas. This course provides instruction in creating, performing,
+conducting, listening to, and analyzing, in addition to focusing on the specific subject matter. Students have the opportunity to work
+with professional clinicians during and outside of the school day. Mastery of basic choral technique must be evident. Areas of
+refinement include madrigal singing, a cappella singing, show choir, vocal jazz, vocal performance, sight-reading, and critical thinking
+skills. As a major performance ensemble, members are expected to attend practices once a week and all extra rehearsals and
+performances for which academic credit is given. Requirement: Extensive Audition. Each member must pay a contribution fee, but
+no student is denied membership because of financial reasons."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/rando11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This course is designed for Fishers HS male and female athletes involved in an IHSAA sponsored sport or one of the following
+        FHS Club Sports: lacrosse, rugby, volleyball. This course is for the motivated student-athlete who is serious about
+        improving his strength, explosive power, speed, and agility through a strenuous training program involving weight
+        training, plyometric, speed development, and agility drills. Students will be evaluated on participation, proper dress,
+        workout log upkeep, quizzes, and improvement over the course of the semester in strength (as measured by a 1-rep max
+        of the bench press, squat, and power clean) and explosive power and speed (as measured by 40-yard dash time, 20-yard
+        Pro-agility test, 20-yard acceleration test, and vertical jump). Requirement: Complete the two graduation-required
+        physical education credits through required PE courses and/or an alternate credit option. A maximum of 8 total credits
+        can be earned in elective physical education courses. It is recommended that FHS athletes complete the prerequisite
+        physical education credits by the end of their freshman year so they can enter APC as a sophomore."
+            android:textAllCaps="false"
+            android:visibility="invisible"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</ScrollView>

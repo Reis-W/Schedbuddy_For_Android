@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/historyCourses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="History Courses:"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/preGeo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="1570 GEOGRAPHY AND HISTORY OF THE WORLD (9, 10)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/geo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Specific geographic and historical skills and concepts of
+historical geography will be used to explore global themes primarily, but not exclusively, for the period beginning in 1000
+CE. Historical geography concepts are used to explore the global themes including change over time, origin, diffusion,
+physical systems, cultural landscapes, and spatial distribution and interaction. By using these skills, concepts and the
+processes associated with them, students are able to evaluate, and make predictions about major global developments."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preWorld"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="1548 WORLD HISTORY AND CIVILIZATION (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/world"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="World History and Civilization emphasizes events and
+developments in the past that greatly affected large numbers of people across broad areas and that significantly
+influenced peoples and places in subsequent eras. Key events related to people and places as well as transcultural
+interaction and exchanges are examined in this course. Students are expected to compare and contrast events and
+developments involving diverse peoples and civilizations in different regions of the world. Students are also expected to
+practice and process skills of historical thinking and research and apply content knowledge to the practice of thinking and
+inquiry skills and processes. There will be continuous and pervasive interactions of processes and content, skills and
+substance, in the teaching and learning of history."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preapWorld"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="1612 ## AP WORLD HISTORY MODERN (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/apWorld"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This course is designed to be the equivalent of a two-semester
+introductory college or university world history course. According to the College Board, AP World History Modern
+students “investigate significant events, individuals, developments, and processes in historical periods from
+approximately 1200 CE to the present. Students develop and use the same skills, practices, and methods employed by
+historians: analyzing primary and secondary sources; making historical comparisons; utilizing reasoning about
+contextualization, causation, and continuity and change over time; and developing historical arguments. The course
+provides five themes that students explore throughout the course in order to make connections among historical
+developments in different times and places: interactions between humans and the environment; development and
+interaction of cultures; state building, expansion, and conflict; creation, expansion, and interaction of economic systems;
+and development and transformation of social structures. Summer reading information will be distributed in the spring.
+Recommendation: 3.4 GPA. Exam registration will take place in September and October. Standard AP fees apply."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preIndiana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="1518 * INDIANA STUDIES (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/indiana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This one semester elective course is an integrated course that compares and
+contrasts state and national developments in the areas of politics, economics, history, and culture. The course uses Indiana
+history as a basis for understanding current policies, practices, and state legislative procedures. It also includes the study
+of state and national constitutions from a historical perspective and as a current foundation of government. Examination
+of individual leaders and their roles in a democratic society will be included and students will examine the participation
+of citizens in the political process. Selections from Indiana arts and literature may also be analyzed for insights into
+historical events and cultural expressions."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/preAfrican"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="1500 * AFRICAN STUDIES (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/african"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="African Studies is a one-semester course that will focus on the history of Africa
+and how specific eras and events in Africa continue to affect our current global relationships. Students will learn about
+various cultures represented on the continent of Africa, ethnicities, religion, arts and entertainment, forms of government,
+and economic trends and systems. Students will be able to recognize evidence of African influence in their own
+communities. This course counts as an elective for all diplomas."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/rando2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This course is designed for Fishers HS male and female athletes involved in an IHSAA sponsored sport or one of the following
+        FHS Club Sports: lacrosse, rugby, volleyball. This course is for the motivated student-athlete who is serious about
+        improving his strength, explosive power, speed, and agility through a strenuous training program involving weight
+        training, plyometric, speed development, and agility drills. Students will be evaluated on participation, proper dress,
+        workout log upkeep, quizzes, and improvement over the course of the semester in strength (as measured by a 1-rep max
+        of the bench press, squat, and power clean) and explosive power and speed (as measured by 40-yard dash time, 20-yard
+        Pro-agility test, 20-yard acceleration test, and vertical jump). Requirement: Complete the two graduation-required
+        physical education credits through required PE courses and/or an alternate credit option. A maximum of 8 total credits
+        can be earned in elective physical education courses. It is recommended that FHS athletes complete the prerequisite
+        physical education credits by the end of their freshman year so they can enter APC as a sophomore."
+            android:textAllCaps="false"
+            android:visibility="invisible"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</ScrollView>

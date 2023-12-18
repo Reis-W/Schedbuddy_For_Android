@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/questionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question 1: Did you take honors classes last year?"/>
+
+        <RadioGroup
+            android:id="@+id/honors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/yes_continue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes, and I want to continue"/>
+
+            <RadioButton
+                android:id="@+id/no_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No, but I want to start" />
+
+            <RadioButton
+                android:id="@+id/yes_stop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes, but I want to stop"/>
+
+            <RadioButton
+                android:id="@+id/no_honors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/questionText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question 2: What math did you take last year?"/>
+
+        <RadioGroup
+            android:id="@+id/math"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/eighth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8th Grade" />
+
+            <RadioButton
+                android:id="@+id/algebra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Algebra 1"/>
+
+            <RadioButton
+                android:id="@+id/geometry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Geometry"/>
+
+            <RadioButton
+                android:id="@+id/other"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Other"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/questionText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question 3: Do you want to take AP classes?"/>
+
+        <RadioGroup
+            android:id="@+id/AP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/yes_ap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes"/>
+
+            <RadioButton
+                android:id="@+id/no_ap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/questionText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question 4: Do you need a gym credit?"/>
+
+        <RadioGroup
+            android:id="@+id/gym"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/yes_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes, one semester"/>
+
+            <RadioButton
+                android:id="@+id/yes_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes, two semesters"/>
+
+            <RadioButton
+                android:id="@+id/no_health"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No, but I need health"/>
+
+            <RadioButton
+                android:id="@+id/yes_one_and_health"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes, one semester, and I need health too" />
+
+            <RadioButton
+                android:id="@+id/yes_two_and_health"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes, two semesters, and I need health too"/>
+
+            <RadioButton
+                android:id="@+id/no_gym"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No"/>
+
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/questionText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question 5: What elective are you most interested in?"/>
+
+        <RadioGroup
+            android:id="@+id/elective"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/facs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Family and Consumer Sciences" />
+
+            <RadioButton
+                android:id="@+id/art"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Art"/>
+
+            <RadioButton
+                android:id="@+id/cs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Computer Science" />
+
+            <RadioButton
+                android:id="@+id/business"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Business"/>
+
+            <RadioButton
+                android:id="@+id/wellness"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Physical Conditioning/Nutrition"/>
+
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/questionText6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question 6: Do you do preforming arts?"/>
+
+        <RadioGroup
+            android:id="@+id/performing_arts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/band"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes, Band"/>
+
+            <RadioButton
+                android:id="@+id/choir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes, Choir"/>
+
+            <RadioButton
+                android:id="@+id/orchestra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes, Orchestra"/>
+
+            <RadioButton
+                android:id="@+id/theatre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes, Theatre"/>
+
+            <RadioButton
+                android:id="@+id/piano"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes, Piano"/>
+
+            <RadioButton
+                android:id="@+id/no_performing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/questionText7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question 7: What language are you most interested in?"/>
+
+        <RadioGroup
+            android:id="@+id/language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/spanish_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Spanish 1"/>
+
+            <RadioButton
+                android:id="@+id/spanish_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Spanish 2"/>
+
+            <RadioButton
+                android:id="@+id/french_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="French 1" />
+
+            <RadioButton
+                android:id="@+id/french_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="French 2"/>
+
+            <RadioButton
+                android:id="@+id/german_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="German 1"/>
+
+            <RadioButton
+                android:id="@+id/german_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="German 2"/>
+
+            <RadioButton
+                android:id="@+id/heritage_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Language For Heritage Speakers 1"/>
+
+            <RadioButton
+                android:id="@+id/heritage_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Language For Heritage Speakers 2"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/questionText8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question 8: What other classes are you most interested in?"/>
+
+        <RadioGroup
+            android:id="@+id/additional_classes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/science"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Additional science classes"/>
+
+            <RadioButton
+                android:id="@+id/history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Additional social studies classes"/>
+
+            <RadioButton
+                android:id="@+id/none"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="None"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/questionText9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question 9: Do you want a study hall?"/>
+
+        <RadioGroup
+            android:id="@+id/study_hall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/yes_2_study"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes"/>
+
+            <RadioButton
+                android:id="@+id/yes_1_study"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes, only 1 semester"/>
+
+            <RadioButton
+                android:id="@+id/no_study"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No"/>
+
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"/>
+
+        <Button
+            android:id="@+id/spaceButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:text=""/>
+
+        <Button
+            android:id="@+id/spaceButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:text=""/>
+
+    </LinearLayout>
+</ScrollView>

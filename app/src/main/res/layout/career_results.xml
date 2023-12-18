@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/careerText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="Career Recommendations:"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/doctorButton"
+            android:layout_width="375dp"
+            android:layout_height="78dp"
+            android:backgroundTint="#EF3939"
+            android:text="Health Care"
+            android:visibility="visible"
+            android:textSize="34sp"/>
+
+        <Button
+            android:id="@+id/iTButton"
+            android:layout_width="375dp"
+            android:layout_height="78dp"
+            android:backgroundTint="#EF3939"
+            android:text="IT"
+            android:visibility="visible"
+            android:textSize="34sp"/>
+
+        <Button
+            android:id="@+id/eduButton"
+            android:layout_width="375dp"
+            android:layout_height="78dp"
+            android:backgroundTint="#EF3939"
+            android:text="Education"
+            android:visibility="visible"
+            android:textSize="34sp"/>
+
+        <Button
+            android:id="@+id/businessButton"
+            android:layout_width="375dp"
+            android:layout_height="78dp"
+            android:backgroundTint="#EF3939"
+            android:text="Business"
+            android:visibility="visible"
+            android:textSize="34sp"/>
+
+        <Button
+            android:id="@+id/engineButton"
+            android:layout_width="375dp"
+            android:layout_height="78dp"
+            android:backgroundTint="#EF3939"
+            android:text="Engineering"
+            android:visibility="visible"
+            android:textSize="34sp"/>
+
+        <Button
+            android:id="@+id/adsButton"
+            android:layout_width="375dp"
+            android:layout_height="78dp"
+            android:backgroundTint="#EF3939"
+            android:text="Marketing"
+            android:visibility="visible"
+            android:textSize="34sp"/>
+
+        <Button
+            android:id="@+id/socialButton"
+            android:layout_width="375dp"
+            android:layout_height="78dp"
+            android:backgroundTint="#EF3939"
+            android:text="Social Services"
+            android:textSize="34sp"
+            android:visibility="visible"/>
+
+        <Button
+            android:id="@+id/mathButton"
+            android:layout_width="378dp"
+            android:layout_height="72dp"
+            android:backgroundTint="#EF3939"
+            android:text="Math"
+            android:textSize="34sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/scienceButton"
+            android:layout_width="378dp"
+            android:layout_height="72dp"
+            android:backgroundTint="#EF3939"
+            android:text="Science"
+            android:textSize="34sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/FillerButton1"
+            android:layout_width="378dp"
+            android:layout_height="72dp"
+            android:text="h"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/fillerButton2"
+            android:layout_width="378dp"
+            android:layout_height="72dp"
+            android:text="h"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+</ScrollView>

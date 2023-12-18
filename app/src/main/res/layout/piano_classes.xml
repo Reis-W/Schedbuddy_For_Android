@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/pianoCourses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="Piano Courses:"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/prePianoOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="4204 PIANO AND ELECTRONIC KEYBOARD - BEGINNING (9, 10, 11, 12)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/pianoOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This course is open to all students who
+desire to learn basic piano/keyboard skills. Students will learn to use proper keyboard fingerings, to read simple melody
+lines, to play major and minor scales, and to harmonize basic melodies with simple chords. Students (1) perform w/
+proper posture, hand position, fingering, rhythm, and articulation; (2) compose and improvise melodic and harmonic material;
+(3) create and perform simple accompaniments; (4) listen to, analyze, sight-read, and study the literature performed; (5) study
+the elements of music as exemplified in variety of style; and (6) make interpretive decisions."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</ScrollView>

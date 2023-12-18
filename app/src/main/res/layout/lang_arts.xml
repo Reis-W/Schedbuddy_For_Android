@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/engCourses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="English Courses:"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/prenine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="1002 ENGLISH 9 (9)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/nine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="English 9 is separated into two semester-long courses: One focuses on literature and the other on
+writing. Each course begins with a grammar review as the foundation for effective communication. During the literature
+semester, students will read a wide variety of fiction including at least one novel study and a short story unit.
+Additionally, they will examine poetry and drama in shorter, more focused units. The literature semester challenges
+students to understand and apply literary terminology when speaking and writing about literature. Throughout this
+semester, students will improve reading comprehension while analyzing authors’ stylistic techniques and purposes. The
+writing semester consists of four units: story-telling, rhetorical analysis, argumentation/media literacy, and persuasive
+speaking. Through drafting, editing, peer reviewing, revising, and reflecting on their work, students will work toward
+mastery of ELA standards."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/prenineHonors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="1002 # HONORS ENGLISH 9 (9)"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/nineHonors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Honors English 9 is separated into two semester-long components: one incorporates
+primarily literary analysis, and the other language and writing application. The literature semester focuses on active
+reading and literary analysis. Students will examine texts of varying genres, study vocabulary in context, analyze the
+basic components of grammar, and write a literary analysis essay demonstrating mastery of skills. Critical reading is
+integral to analytical compositions, along with emphasis on effective syntax, accurate and logical expression, and
+expansion of ideas. The writing semester focuses on language analysis, composition, research, and speaking. Students will
+examine “mentor texts” of varying genres and modes by analyzing the author's language choices as a means to
+understand purpose and impact. Students will apply these rhetorical skills to craft their own writing effectively for a
+variety of purposes and audiences, writing multiple drafts of several compositions. Understanding and application of
+grammatical concepts, vocabulary in context, research skills, source documentation, and media literacy all contribute to
+student development in this course. Additionally, this course has been vertically aligned with our International
+Baccalaureate (IB) and Advanced Placement (AP) English courses in an effort to lay important foundational work for
+future enrollment and success in upper grades; students should anticipate rigorous assessments and expectations.
+Recommendation: a “B” average in 8
+th grade Advanced English OR an “A” average in 8
+th grade regular English."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/rando10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="This course is designed for Fishers HS male and female athletes involved in an IHSAA sponsored sport or one of the following
+        FHS Club Sports: lacrosse, rugby, volleyball. This course is for the motivated student-athlete who is serious about
+        improving his strength, explosive power, speed, and agility through a strenuous training program involving weight
+        training, plyometric, speed development, and agility drills. Students will be evaluated on participation, proper dress,
+        workout log upkeep, quizzes, and improvement over the course of the semester in strength (as measured by a 1-rep max
+        of the bench press, squat, and power clean) and explosive power and speed (as measured by 40-yard dash time, 20-yard
+        Pro-agility test, 20-yard acceleration test, and vertical jump). Requirement: Complete the two graduation-required
+        physical education credits through required PE courses and/or an alternate credit option. A maximum of 8 total credits
+        can be earned in elective physical education courses. It is recommended that FHS athletes complete the prerequisite
+        physical education credits by the end of their freshman year so they can enter APC as a sophomore."
+            android:textAllCaps="false"
+            android:visibility="invisible"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</ScrollView>

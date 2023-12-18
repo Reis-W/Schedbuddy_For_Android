@@ -1,46 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
-    android:padding="16dp"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/titleTextView"
+    <ImageView
+        android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Home Screen"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        android:elevation="4dp"
+        android:src="@drawable/home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
-    <Button
-        android:id="@+id/button1"
+    <ImageView
+        android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button 1"/>
+        android:elevation="4dp"
+        android:src="@drawable/school"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
-    <Button
-        android:id="@+id/button2"
+    <ImageView
+        android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button 2"/>
+        android:elevation="4dp"
+        android:src="@drawable/work"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.702"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button 3"/>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="37dp"
+        android:layout_height="39dp"
+        android:elevation="4dp"
+        android:src="@drawable/glass"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button 4"/>
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="416dp"
+        android:layout_height="69dp"
+        android:elevation="2dp"
+        android:src="@drawable/red_bar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
-</LinearLayout>
+    <ImageView
+        android:id="@+id/barTwo"
+        android:layout_width="416dp"
+        android:layout_height="69dp"
+        android:elevation="2dp"
+        android:src="@drawable/red_bar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ViewFlipper
+        android:id="@+id/myViewFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/home_screen" />
+
+        <include layout="@layout/class_quiz" />
+        <include layout="@layout/career_quiz" />
+        <include layout="@layout/schedule" />
+        <include layout="@layout/career_results" />
+        <include layout="@layout/searching" />
+        <include layout="@layout/lang_arts" />
+        <include layout="@layout/math_courses" />
+        <include layout="@layout/science_courses" />
+        <include layout="@layout/history_courses" />
+        <include layout="@layout/art_courses" />
+        <include layout="@layout/world_courses" />
+        <include layout="@layout/facs_classes" />
+        <include layout="@layout/business_courses" />
+        <include layout="@layout/computer_courses" />
+        <include layout="@layout/choir_classes" />
+        <include layout="@layout/orchestra_classes" />
+        <include layout="@layout/band_classes" />
+        <include layout="@layout/theatre_classes" />
+        <include layout="@layout/piano_classes" />
+        <include layout="@layout/performing_courses" />
+        <include layout="@layout/gym_courses" />
+        <include layout="@layout/nutrition_courses" />
+        <include layout="@layout/careers_jobs" />
+
+    </ViewFlipper>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

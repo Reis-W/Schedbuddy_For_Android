@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/socialMajor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question 1: I enjoy helping people with problems."/>
+
+        <RadioGroup
+            android:id="@+id/group1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/agree1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agree"/>
+
+            <RadioButton
+                android:id="@+id/agree2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Disagree"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/iTMajor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question 2: I enjoy working with technology."/>
+
+        <RadioGroup
+            android:id="@+id/group2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/agree3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agree"/>
+
+            <RadioButton
+                android:id="@+id/agree4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Disagree"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/eduMajor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question 3: I enjoy teaching others."/>
+
+        <RadioGroup
+            android:id="@+id/group3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/agree5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agree"/>
+
+            <RadioButton
+                android:id="@+id/agree6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Disagree"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/businessMajor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question 4: I enjoy learning about money and the economy."/>
+
+        <RadioGroup
+            android:id="@+id/group4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/agree7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agree"/>
+
+            <RadioButton
+                android:id="@+id/agree8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Disagree"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/engineMajor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question 5: I enjoy building and STEM fields."/>
+
+        <RadioGroup
+            android:id="@+id/group5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/agree9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agree"/>
+
+            <RadioButton
+                android:id="@+id/agree10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Disagree"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/adsMajor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question 6: I enjoy analyzing trends and detecting patterns."/>
+
+        <RadioGroup
+            android:id="@+id/group6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/agree11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agree"/>
+
+            <RadioButton
+                android:id="@+id/agree12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Disagree"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/doctorMajor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question 7: I enjoy caring for people and curing them."/>
+
+        <RadioGroup
+            android:id="@+id/group7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/agree13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agree"/>
+
+            <RadioButton
+                android:id="@+id/agree14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Disagree"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/mathMajor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question 8: Math is my favorite subject."/>
+
+        <RadioGroup
+            android:id="@+id/group8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/agree15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agree"/>
+
+            <RadioButton
+                android:id="@+id/agree16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Disagree"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/scienceMajor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question 9: I enjoy researching and innovating."/>
+
+        <RadioGroup
+            android:id="@+id/group9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/agree17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agree"/>
+
+            <RadioButton
+                android:id="@+id/agree18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Disagree"/>
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submitButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"/>
+
+        <Button
+            android:id="@+id/spaceButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:text=""/>
+
+        <Button
+            android:id="@+id/spaceButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:text=""/>
+
+    </LinearLayout>
+</ScrollView>
